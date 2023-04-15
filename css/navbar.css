@@ -1,0 +1,22 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    float: left;       /* to float all nav-buttons to the left side */
+}
+
+nav a:link, nav a:visited {
+    background-color: brown;
+    color: white;
+    display: block;
+    width: 160px;     /*  total width(66%) and total nav-buttons(6) so [66/6=11%] */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a:hover {
+    background-color: black;
+}
